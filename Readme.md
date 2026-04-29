@@ -108,7 +108,7 @@ If you downloaded the full project from the Google Drive link above, these weigh
 Run the main script to start the real-time 3D motion capture pipeline:
 
 ```bash
-python real-time2_opencv_halpe.py
+python real-time2_opencv_15fps.py
 ```
 
 * **📷 Camera Simulation**: Since no physical camera is connected for this demo, the system is configured to **simulate real-time camera input by reading from a video file**. The pipeline processes the video frames sequentially through the asynchronous buffer to mimic a live stream.
