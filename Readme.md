@@ -3,7 +3,16 @@
 A high-performance, low-latency real-time single-person 3D pose estimation and rendering pipeline built on **RTMDet + RTMPose + GAST-Net**.
 
 This project implements an end-to-end lift from 2D video to a 3D skeleton, featuring a deep engineering refactoring to eliminate performance bottlenecks in traditional Python video processing, supporting smooth real-time visualization and video export.
+---
 
+## 📥 Download Full Project
+
+Due to GitHub's file size limits (especially for model weights and environment files), the complete project including all necessary assets has been uploaded to Google Drive. 
+
+**Please download the entire project folder from the link below:**
+👉 **[Download Project via Google Drive](https://drive.google.com/drive/folders/1zqbEipzxDLcSY50n8-ZIrDf6tv6ywyld?usp=sharing)**
+
+---
 ## ✨ Key Features
 
 * **⚡ Asynchronous Multi-Threaded Architecture (Pipeline)**: Completely decouples the "video reading", "AI inference", and "frame rendering" modules, eliminating I/O blocking and maximizing GPU utilization.
@@ -24,16 +33,7 @@ The 3D skeleton uses a high-contrast anatomical color scheme:
 * **Red (#FF0000)**: Right side limbs.
 * **Lime Green (#00FF00)**: Trunk centerline (spine, neck, head).
 
----
 
-## 📥 Download Full Project
-
-Due to GitHub's file size limits (especially for model weights and environment files), the complete project including all necessary assets has been uploaded to Google Drive. 
-
-**Please download the entire project folder from the link below:**
-👉 **[Download Project via Google Drive](https://drive.google.com/drive/folders/1zqbEipzxDLcSY50n8-ZIrDf6tv6ywyld?usp=sharing)**
-
----
 
 ## 🛠️ Installation
 
