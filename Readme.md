@@ -1,4 +1,3 @@
-
 # 🚀 Real-Time 3D Pose Estimation Pipeline
 
 A high-performance, low-latency real-time single-person 3D pose estimation and rendering pipeline built on **RTMDet + RTMPose + GAST-Net**.
@@ -30,8 +29,16 @@ The 3D skeleton uses a high-contrast anatomical color scheme:
 
 This project relies on a specific environment configuration for stability. 
 
-**Applicable Environment**: Windows / Linux (GPU with CUDA 11.7 support)
+**Applicable Environment**: Windows / Linux (GPU with CUDA 11.7 support)  
 **Core Versions**: Python 3.8 + PyTorch 1.13.1 + NumPy 1.23.5
+
+> 💡 **Quick Setup:** For your convenience, we provide both `environment.yml` and `requirements.txt` in the repository. You can quickly set up the base environment using:
+> * **Conda:** `conda env create -f environment.yml`
+> * **Pip:** `pip install -r requirements.txt`
+> 
+> *(Note: After using the quick setup, please proceed to Steps 4 and 5 to install OpenMMLab core libraries.)*
+
+**Alternatively, follow the step-by-step manual installation:**
 
 **1. Create and Activate Environment**
 ```bash
