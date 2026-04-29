@@ -95,6 +95,7 @@ Run the main script to start the real-time 3D motion capture pipeline:
 python main.py
 ```
 
+* **📷 Camera Simulation**: Since no physical camera is connected for this demo, the system is configured to **simulate real-time camera input by reading from a video file**. The pipeline processes the video frames sequentially through the asynchronous buffer to mimic a live stream.
 * **Real-time View**: A dual-screen window pops up (original video on the left, 3D skeleton on the right).
 * **Exit**: Press `q` on your keyboard while focusing on the video window to safely terminate all threads.
 * **Results**: The processed video is automatically saved to `./output/realtime_demo_output.mp4`.
