@@ -12,6 +12,8 @@ This project implements an end-to-end lift from 2D video to a 3D skeleton, featu
 * **🎯 Accurate Target Tracking & Stabilization**:
     * Integrates `ByteTracker` for consistent target identity (ID).
     * Integrates a `One-Euro Filter` for temporal filtering to eliminate high-frequency jitter.
+
+
 * **🦴 Smart Mapping from Halpe-26 to H36M**: Natively supports RTMPose's Halpe format and leverages its highly accurate Head Top keypoint (Index 17) to map directly to Human3.6M format, ensuring much better head positioning than traditional estimations.
 * **🛡️ Crash-Proof Video Export**: Built-in adaptive padding logic fills a blank background when a target is lost, preventing FFmpeg `Failed to write frame` errors caused by resolution changes.
 
@@ -21,6 +23,15 @@ The 3D skeleton uses a high-contrast anatomical color scheme:
 * **Black (#000000)**: Left side limbs and pelvis.
 * **Red (#FF0000)**: Right side limbs.
 * **Lime Green (#00FF00)**: Trunk centerline (spine, neck, head).
+
+---
+
+## 📥 Download Full Project
+
+Due to GitHub's file size limits (especially for model weights and environment files), the complete project including all necessary assets has been uploaded to Google Drive. 
+
+**Please download the entire project folder from the link below:**
+👉 **[Download Project via Google Drive](https://drive.google.com/drive/folders/1zqbEipzxDLcSY50n8-ZIrDf6tv6ywyld?usp=sharing)**
 
 ---
 
@@ -77,7 +88,7 @@ mim install "mmpose>=1.0.0"
 
 ## 📂 Preparation
 
-Ensure you have downloaded the following model weights and updated their absolute paths in the main script:
+If you downloaded the full project from the Google Drive link above, these weights are already included. Otherwise, ensure you have the following:
 
 1. **RTMDet Checkpoint**: `rtmdet_m_8xb32-100e_coco-obj365-person-235e8209.pth`
 2. **RTMPose Checkpoint**: `rtmpose-x_simcc-body7_pt-body7_700e-384x288-71d7b7e9_20230629.pth`
@@ -92,7 +103,7 @@ Ensure you have downloaded the following model weights and updated their absolut
 Run the main script to start the real-time 3D motion capture pipeline:
 
 ```bash
-python main.py
+python real-time2_opencv_halpe.py
 ```
 
 * **📷 Camera Simulation**: Since no physical camera is connected for this demo, the system is configured to **simulate real-time camera input by reading from a video file**. The pipeline processes the video frames sequentially through the asynchronous buffer to mimic a live stream.
