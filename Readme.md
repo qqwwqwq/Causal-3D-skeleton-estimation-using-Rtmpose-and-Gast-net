@@ -14,7 +14,7 @@ This project implements an end-to-end lift from 2D video to a 3D skeleton, featu
 Due to GitHub's file size limits (especially for model weights and environment files), the complete project including all necessary assets has been uploaded to Google Drive. 
 
 **Please download the entire project folder from the link below:**
-👉 **[Download Project via Google Drive](https://drive.google.com/file/d/1DDL6_HJ7lttEttyCDnJLJ0h1dEzPXSgq/view?usp=sharing)**
+👉 **[Download Project via Google Drive](https://drive.google.com/file/d/1XU8j5bZVs9jgH6t2n7CMnmGjR8ygeMh9/view?usp=sharing)**
 
 ---
 https://github.com/user-attachments/assets/5059373f-99a5-46fa-867d-7044986dfed1
