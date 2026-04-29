@@ -12,7 +12,6 @@ This project implements an end-to-end lift from 2D video to a 3D skeleton, featu
 * **🎯 Accurate Target Tracking & Stabilization**:
     * Integrates `ByteTracker` for consistent target identity (ID).
     * Integrates a `One-Euro Filter` for temporal filtering to eliminate high-frequency jitter.
-    * Applies EMA (Exponential Moving Average) to smooth the floor height, preventing Z-axis skeletal collapse.
 * **🦴 Smart Mapping from Halpe-26 to H36M**: Natively supports RTMPose's Halpe format and leverages its highly accurate Head Top keypoint (Index 17) to map directly to Human3.6M format, ensuring much better head positioning than traditional estimations.
 * **🛡️ Crash-Proof Video Export**: Built-in adaptive padding logic fills a blank background when a target is lost, preventing FFmpeg `Failed to write frame` errors caused by resolution changes.
 
