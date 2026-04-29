@@ -1,3 +1,7 @@
+
+
+
+
 # 🚀 Real-Time 3D Pose Estimation Pipeline
 
 A high-performance, low-latency real-time single-person 3D pose estimation and rendering pipeline built on **RTMDet + RTMPose + GAST-Net**.
@@ -13,6 +17,7 @@ Due to GitHub's file size limits (especially for model weights and environment f
 👉 **[Download Project via Google Drive](https://drive.google.com/drive/folders/1zqbEipzxDLcSY50n8-ZIrDf6tv6ywyld?usp=sharing)**
 
 ---
+https://github.com/user-attachments/assets/5059373f-99a5-46fa-867d-7044986dfed1
 ## ✨ Key Features
 
 * **⚡ Asynchronous Multi-Threaded Architecture (Pipeline)**: Completely decouples the "video reading", "AI inference", and "frame rendering" modules, eliminating I/O blocking and maximizing GPU utilization.
