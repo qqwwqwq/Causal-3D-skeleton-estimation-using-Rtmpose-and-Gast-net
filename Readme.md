@@ -17,7 +17,12 @@ Due to GitHub's file size limits (especially for model weights and environment f
 👉 **[Download Project via Google Drive](https://drive.google.com/file/d/1XU8j5bZVs9jgH6t2n7CMnmGjR8ygeMh9/view?usp=sharing)**
 
 ---
-https://github.com/user-attachments/assets/5059373f-99a5-46fa-867d-7044986dfed1
+
+
+https://github.com/user-attachments/assets/29518125-c715-4f4d-8764-e28dd45b4e6c
+
+
+
 ## ✨ Key Features
 
 * **⚡ Asynchronous Multi-Threaded Architecture (Pipeline)**: Completely decouples the "video reading", "AI inference", and "frame rendering" modules, eliminating I/O blocking and maximizing GPU utilization.
