@@ -15,7 +15,7 @@ Due to GitHub's file size limits (especially for model weights and environment f
 
 **Please download the entire project folder from the link below:**
 👉 **[Download Project via Google Drive](https://drive.google.com/file/d/1XU8j5bZVs9jgH6t2n7CMnmGjR8ygeMh9/view?usp=sharing)**
-
+    Download mmpose here https://drive.google.com/drive/folders/1UEyFLM0c_JXOLdc5c8j6EsrQFohFumsu?usp=sharing
 ---
 
 
